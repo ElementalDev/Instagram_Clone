@@ -1,31 +1,45 @@
 .container {
-  height: 700px;
-  width: 1000px;
+  height: 576px;
+  width: 700px;
   margin: auto;
 }
 section {
   border: 1px black solid;
   display: inline-block;
+  margin-top: 100px;
+}
+
+footer {
+  border: 1px black solid;
+  height: 100px;
+  margin-top: 130px;
 }
 
 .phone-image {
-  height: 700px;
-  width: 498px;
+  height: 576px;
+  width: 398px;
   float: left;
 }
 .signup-form {
-  height: 300px;
-  width: 498px;
+  height: 396px;
+  width: 278px;
   float: right;
 }
 
 .login{
-  height: 200px;
-  width: 498px;
+  height: 78px;
+  width: 278px;
+  margin-top: 10px;
   float: right;
 }
 .logos {
-  height: 200px;
-  width: 498px;
+  height: 78px;
+  width: 278px;
+  margin-top: 10px;
   float: right;
+}
+
+.signup-form, .login, .logos
+{
+  margin-left: 20px;
 }
