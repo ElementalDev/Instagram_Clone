@@ -1,8 +1,15 @@
+/* Use a universal font */
+body {
+  font-family: sans-serif;
+}
+/* Establish size of container */
 .container {
   height: 576px;
   width: 700px;
   margin: auto;
 }
+
+/* Visual Aids - To be deleted later where necessary */
 section {
   border: 1px black solid;
   display: inline-block;
@@ -15,31 +22,46 @@ footer {
   margin-top: 130px;
 }
 
-.phone-image {
+/* Change the font size of h2 */
+h2 {
+  font-size: 14px;
+}
+
+/* Contains the image of the phones */
+.main-image-sec {
   height: 576px;
   width: 398px;
   float: left;
 }
+
+/* Contains forms for signing up - First section on the right */
 .signup-form {
-  height: 396px;
-  width: 278px;
+  height: 336px;
+  width: 218px;
+  float: right;
+  text-align: center;
+}
+
+/* Contains a link to the login page - Second section */
+.login{
+  height: 18px;
+  width: 218px;
+  margin-top: 10px;
   float: right;
 }
 
-.login{
-  height: 78px;
-  width: 278px;
-  margin-top: 10px;
-  float: right;
-}
+/* Contains logos for IOS and Android Availability - Third section */
 .logos {
-  height: 78px;
-  width: 278px;
+  height: 18px;
+  width: 218px;
   margin-top: 10px;
   float: right;
 }
+
+/* Adds a margin to all right hand boxes */
 
 .signup-form, .login, .logos
 {
   margin-left: 20px;
+  padding: 30px;
 }
