@@ -1,0 +1,31 @@
+.container {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+}
+section {
+  border: 1px black solid;
+  display: inline-block;
+}
+
+.phone-image {
+  height: 700px;
+  width: 498px;
+  float: left;
+}
+.signup-form {
+  height: 300px;
+  width: 498px;
+  float: right;
+}
+
+.login{
+  height: 200px;
+  width: 498px;
+  float: right;
+}
+.logos {
+  height: 200px;
+  width: 498px;
+  float: right;
+}
