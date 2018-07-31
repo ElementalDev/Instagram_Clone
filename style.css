@@ -38,22 +38,26 @@ h2 {
 .signup-form {
   height: 336px;
   width: 218px;
+  padding: 30px;
   float: right;
   text-align: center;
 }
 
 /* Contains a link to the login page - Second section */
 .login{
-  height: 18px;
-  width: 218px;
+  height: 63px;
+  width: 278px;
   margin-top: 10px;
   float: right;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 15px;
 }
 
 /* Contains logos for IOS and Android Availability - Third section */
 .logos {
-  height: 18px;
-  width: 218px;
+  height: 78px;
+  width: 278px;
   margin-top: 10px;
   float: right;
 }
@@ -63,5 +67,10 @@ h2 {
 .signup-form, .login, .logos
 {
   margin-left: 20px;
-  padding: 30px;
+}
+
+/* Styling the form */
+.sub-btn{
+  display: block;
+  margin: auto;
 }
