@@ -10,7 +10,7 @@ body {
   margin: auto;
 }
 
-/* Visual Aids - To be deleted later where necessary */
+/* Initial positioning */
 section {
   display: inline-block;
   margin-top: 50px;
@@ -62,6 +62,11 @@ h2 {
   float: right;
   text-align: center;
   font-size: 12px;
+}
+
+/* Style the T&Cs information */
+.tac-text {
+  font-size: 17px;
 }
 
 /* Adds a margin to all right hand boxes */
