@@ -2,24 +2,24 @@
 body {
   font-family: sans-serif;
 }
+
 /* Establish size of container */
 .container {
-  height: 576px;
+  height: 676px;
   width: 800px;
   margin: auto;
 }
 
 /* Visual Aids - To be deleted later where necessary */
 section {
-  border: 1px black solid;
   display: inline-block;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 footer {
   border: 1px black solid;
-  height: 100px;
-  margin-top: 130px;
+  height: 75px;
+  margin-top: 70px;
 }
 
 /* Change the font size of h2 */
@@ -29,14 +29,14 @@ h2 {
 
 /* Contains the image of the phones */
 .main-image-sec {
-  height: 576px;
+  height: 676px;
   width: 398px;
   float: left;
 }
 
 /* Contains forms for signing up - First section on the right */
 .signup-form {
-  height: 336px;
+  height: 396px;
   width: 284px;
   padding: 30px;
   float: right;
@@ -60,6 +60,8 @@ h2 {
   width: 344px;
   margin-top: 10px;
   float: right;
+  text-align: center;
+  font-size: 12px;
 }
 
 /* Adds a margin to all right hand boxes */
@@ -69,15 +71,16 @@ h2 {
   margin-left: 10px;
 }
 
-/* Styling the form */
-input {
-  display: block;
-  margin: auto;
+.signup-form, .login
+{
+  /*border: 2px lightgrey solid;*/
+  background-color: #fff;
+  box-shadow: 0px 2px 20px 1px lightgrey;
 }
 
 /* Styling the images */
 .phone-image {
-  width: 400px;
+  width: 425px;
   height: 570px;
 }
 
@@ -89,7 +92,40 @@ input {
 
 .ibadge, .abadge
 {
+  height: 30px;
+  width: 100px;
   display: inline-block;
-  margin-top: 12px;
   margin-left: 7px;
+}
+
+.fb-fav {
+  width: 20px;
+  height: 20px;
+}
+
+/* Styling the buttons */
+.fb-btn {
+  height: 25px;
+  width: 260px;
+  background-color: #458eff;
+  color: white;
+  font-weight: bold;
+}
+
+/* Styling the input */
+
+input {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  height: 25px;
+  width: 250px;
+}
+
+.sbt-btn {
+  width: 260px;
+  border-radius: 0px;
+  background-color: #458eff;
+  color: white;
+  font-weight: bold;
 }
