@@ -5,7 +5,7 @@ body {
 
 /* Establish size of container */
 .container {
-  height: 676px;
+  height: 656px;
   width: 800px;
   margin: auto;
 }
@@ -17,9 +17,9 @@ section {
 }
 
 footer {
-  border: 1px black solid;
-  height: 75px;
-  margin-top: 70px;
+  height: 50px;
+  margin-top: 50px;
+  padding-left: 140px;
 }
 
 /* Change the font size of h2 */
@@ -29,7 +29,7 @@ h2 {
 
 /* Contains the image of the phones */
 .main-image-sec {
-  height: 676px;
+  height: 656px;
   width: 398px;
   float: left;
 }
@@ -128,4 +128,12 @@ input {
   background-color: #458eff;
   color: white;
   font-weight: bold;
+}
+
+/* Class to unstyle the links in footer */
+.unstyled {
+  text-decoration: none;
+  font-size: 12px;
+  padding-left: 20px;
+  color: darkblue;
 }
