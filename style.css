@@ -163,7 +163,7 @@ input {
 
 /* Media query for responsive design */
 
-@media screen and (min-width: 320px) and (max-width: 767px){
+@media screen and (min-width: 320px) and (max-width: 767px) {
 
   .main-image-sec {
     display: none;
@@ -172,13 +172,12 @@ input {
   .signup-form, .login, .logos {
     float: none;
     display: block;
-    margin: auto;
-    margin-top: 5px;
-
+    margin: 5px auto;
   }
 
   footer{
     text-align: center;
     margin: auto;
-  }
+    padding: 0px;
+    width: 400px;
 }
