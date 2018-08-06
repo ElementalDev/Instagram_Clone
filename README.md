@@ -2,7 +2,7 @@
 
 ## What is it?:
 
-This is an clone if the instagram sign in page, including images, buttons and inputs you would normally find on the origin page.
+This is an clone of the instagram sign in page, including images, buttons and inputs you would normally find on the origin page.
 
 Several commits were made to make sure there is a good history of changes made, incase I need to revert back to one of them.
 
